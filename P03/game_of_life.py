@@ -1,7 +1,5 @@
 from random import randint
 import time
-from colorama import init
-init()
 
 def check_cell_state(x_corr, y_corr):
     if not(x_corr < 0 or x_corr >= length or y_corr < 0 or y_corr >= height):
